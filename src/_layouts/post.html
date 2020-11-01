@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top">
+  {% include banner.html %}
+
+  <div class="content">
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="post-image-container">
+            <img id="post-image" class="post-image" src="{{ page.imageUrl }}">
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-sm-4 text-center">
+          <h1>{{ page.title }}</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% include footer.html %}
+  <!-- Unused because it's a bit terrible -->
+  <!-- <script>
+    function setImageSize(img) {
+      aspectRatio = img.prop('naturalWidth') / img.prop('naturalHeight')
+
+      height = $(window).height() - 250 - 30 - 30
+      projectedWidth = height * aspectRatio
+
+      width = $(window).width() - 45 - 45
+      projectedHeight = width * aspectRatio
+
+      // If our projected width is too wide, set it to the smaller width
+      if (projectedWidth >= $(window).width()) {
+        img.width(width)
+        img.height('auto')
+        console.log('set width to', width, 'and height to auto')
+      }
+
+      if (projectedHeight > height) {
+        img.height(height)
+        img.width('auto')
+        console.log('set height to', height, 'and width to auto')
+      }
+    }
+
+    // Be __really__ sure the image has loaded
+    $(window).on('load', () => {
+      var img = $('#post-image')
+      img.onload = setImageSize(img)
+    });
+
+  </script> -->
+</body>
+
+</html>
