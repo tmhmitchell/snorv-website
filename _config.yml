@@ -1,3 +1,6 @@
-source: src
-destination: build
 permalink: /:categories/:year/:month/:title
+exclude:
+    - CNAME
+    - Gemfile
+    - Gemfile.lock
+    - README.md
