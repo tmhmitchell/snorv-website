@@ -45,6 +45,7 @@
 
 /* Image on /post page */
 .post-image-container {
+    max-width: calc(100vw - 90px);
     width: 100%;
     height: 100%;
     justify-content: center;
