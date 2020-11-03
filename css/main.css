@@ -42,15 +42,9 @@
     color: #77c571;
 }
 
-
 /* Image on /post page */
 .post-image-container {
-    width: 100%;
-    max-width: calc(100vw - 90px);
     justify-content: center;
     display: flex;
-}
-
-.post-image {
     margin-bottom: 30px;
 }
