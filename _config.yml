@@ -4,3 +4,4 @@ exclude:
     - Gemfile
     - Gemfile.lock
     - README.md
+s3Bucket: https://snorv.s3.fr-par.scw.cloud

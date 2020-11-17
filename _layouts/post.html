@@ -10,7 +10,7 @@
     <div class="container">
 
       <div class="post-image-container">
-        <img id="post-image" class="img-fluid" src=" {{ page.imageUrl }}">
+        <img id="post-image" class="img-fluid" src="{{ site.s3Bucket }}{{ page.s3Path }}">
       </div>
 
       <div class="text-center">
