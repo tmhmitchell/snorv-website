@@ -1,20 +1,11 @@
 /* Masthead */
 .masthead {
-  background-image: url("/img/banner-edit.jpg");
-  background-position: 0% 100%;
+  background-image: url("https://snorv.s3.fr-par.scw.cloud/imgs/misc/banner-nov-2020.JPG");
+  background-position: left 57%;
   height: 250px;
   width: 100%;
   background-size: cover;
-  position: relative;
-}
-
-.masthead-text {
-    font-family: 'MedievalSharp', cursive;
-    margin-left: 30px;
-    bottom: 0%;
-    left: 0%;
-    position: absolute;
-    color: black;
+  background-origin: padding-box;
 }
 
 .content {
