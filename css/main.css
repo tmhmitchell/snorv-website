@@ -1,3 +1,7 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+}
+
 /* Masthead */
 .masthead {
   background-image: url("https://snorv.s3.fr-par.scw.cloud/imgs/misc/banner-nov-2020.JPG");
