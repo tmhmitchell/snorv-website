@@ -3,5 +3,6 @@ layout: post
 title: Gate (Detail)
 description:
 date: 2017-06-01 00:00:00
-s3Path: /imgs/2017/06/gate-detail.jpg
+loQualPath: /2017/06/gate-detail/gate-detail-compressed.jpg
+hiQualPath: /2017/06/gate-detail/gate-detail.jpg
 ---

@@ -1,7 +1,7 @@
 permalink: /:categories/:year/:month/:title
 exclude:
-    - CNAME
-    - Gemfile
-    - Gemfile.lock
-    - README.md
-s3Bucket: https://snorv.s3.fr-par.scw.cloud
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+s3Bucket: https://cdn.snorv.art
